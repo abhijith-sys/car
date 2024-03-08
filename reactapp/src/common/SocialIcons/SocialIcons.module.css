@@ -1,0 +1,28 @@
+
+.navSocialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff01f;
+    width: 128px;
+    height: 16px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+
+.iconfb {
+    cursor: pointer;
+  }
+  
+  .iconfb :hover {
+    fill: rgb(50, 158, 207);
+  }
+  .instaicon {
+    cursor: pointer;
+  }
+  .instaicon:hover {
+    fill: rgb(207, 28, 168);
+  }
+  

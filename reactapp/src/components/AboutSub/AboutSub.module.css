@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+  background: yellow;
+  background-size: cover;
+  border: 1px solid #707070;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  overflow-x: hidden;
+  padding-top: 100px;
+  padding: 50px;
+  justify-content: space-around;
+}
+.carImage {
+  mix-blend-mode: multiply;
+  width: 1360px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+
+}
+
+.textImage {
+  width: 151px;
+  height: auto;
+}
+
+.leftImageContainer {
+  width: 60%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1549px) {
+  .carImage {
+    width: 50%;
+    height: auto;
+  }
+}
+
+
+
